@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Content</h1>
+    <div class="div"></div>
+    <script>
+        var a=document.getElementById("heading");
+        a.style.background="red"
+        var b=document.getElementsByClassName("div");
+        console.log(b);
+        document.getElementById("heading").innerText="Rakesh";
+        var element=document.createElement("p");
+        element.innerText="Some Content Added by Rakesh"
+        document.getElementByClassName("div").appendChild(element);
+        var c=document.getElementById("heading");
+        c.style.fontSize="40px";
+        c.style.color="white";
+        c.style.padding="50px";
+        c.style.textAlign="center";
+
+    </script>
+</body>
+</html>
